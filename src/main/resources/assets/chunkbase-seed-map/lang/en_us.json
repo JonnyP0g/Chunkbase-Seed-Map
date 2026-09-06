@@ -1,4 +1,11 @@
 {
-  "key.chunkbase-seed-map.open_map": "Open Seed Map",
-  "category.chunkbase-seed-map": "Chunkbase Seed Map"
+  "key.chunkbase-seed-map.open_map": "Open Seed Map Overlay",
+  "category.chunkbase-seed-map": "Chunkbase Seed Map",
+  "screen.chunkbase-seed-map.title": "Seed Map Overlay",
+  "ui.chunkbase-seed-map.toggle.biomes": "Biomes",
+  "ui.chunkbase-seed-map.toggle.structures": "Structures",
+  "ui.chunkbase-seed-map.toggle.grid": "Grid Lines",
+  "ui.chunkbase-seed-map.toggle.coordinates": "Coordinates",
+  "ui.chunkbase-seed-map.on": "On",
+  "ui.chunkbase-seed-map.off": "Off"
 }

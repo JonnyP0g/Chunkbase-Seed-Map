@@ -1,26 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "example-mod",
+  "id": "chunkbase-seed-map",
   "version": "${version}",
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod does here!",
+  "name": "Chunkbase Seed Map",
+  "description": "A configurable in-game seed map overlay.",
   "authors": [
-    "Me!"
+    "JonnyP0g"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/JonnyP0g/Chunkbase-Seed-Map",
+    "sources": "https://github.com/JonnyP0g/Chunkbase-Seed-Map"
   },
   "license": "CC0-1.0",
   "icon": "assets/example-mod/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.example.mod.ExampleMod"
+      "com.example.mod.ChunkbaseSeedMapMod"
+    ],
+    "client": [
+      "com.example.mod.client.ChunkbaseMapClient"
     ]
   },
   "mixins": [
-    "example-mod.mixins.json"
+    "chunkbase-seed-map.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.16.9",
